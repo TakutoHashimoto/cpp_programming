@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;
+
+    cout << "aの値: ";
+    cin >> a;
+
+    int b = -a;
+
+    cout << +a << "の符号を反転した値は" << b << "です。\n";
+}
